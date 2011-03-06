@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Mantuca!</string>
+    <string name="app_name">Mantuca</string>
+    <string name="no_maquinas">No hay maquinas</string>
+    <string name="menu_insert">Add Maquina</string>
+    <string name="menu_delete">Borrar Maquina</string>
+    <string name="idAena">IdAena:</string>
+    <string name="serial">Serial:</string>
+    <string name="confirm">Guardar</string>
+    <string name="tipo">Tipo:</string>
+    <string name="modelo">Modelo:</string>
+    <string name="ubicacion">Ubicacion:</string>
+    <string name="edit_maquina">Edita Maquina</string>
+</resources>

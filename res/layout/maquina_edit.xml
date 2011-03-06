@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:stretchColumns="1" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow>
+		<TextView android:padding="3dip"
+			android:text="@string/idAena" />
+		<EditText android:id="@+id/idAena" />
+		  	
+	</TableRow>
+	<TableRow>
+		<TextView android:padding="3dip" 
+		android:text="@string/serial" />
+		<EditText android:id="@+id/serial" />
+	</TableRow>
+
+	<TableRow>
+		<TextView android:padding="3dip" 
+		android:text="@string/tipo" />
+		<EditText android:id="@+id/tipo"  />
+	</TableRow>
+		
+	<TableRow>
+		
+		<TextView android:padding="3dip"
+			android:text="@string/modelo" />
+		<EditText android:id="@+id/modelo"  />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:padding="3dip" 
+			android:text="@string/ubicacion" />
+		<EditText android:id="@+id/ubicacion"  />
+	</TableRow>
+	<TableRow>
+	<Button android:id="@+id/confirm" 
+	  android:text="@string/confirm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	</TableRow>
+</TableLayout>
